@@ -1,0 +1,66 @@
+
+Comandos Git
+https://comandosgit.github.io/
+
+
+
+echo "# asdasd" >> README.md
+git init
+touch README.md
+git add README.md
+git status
+git add .
+
+git branch -M main
+git remote add origin https://github.com/seu link do seu repo GitHub
+git push -u origin main
+
+clear = limpar terminal
+
+
+------- inserindo novo arquivos
+git add .
+git status
+git commit -m "pasta add"
+git push -u origin main
+
+
+
+outras op‡äes do ADD.
+git add nome_do_diretorio/
+git add *.txt
+
+Resumo das op‡äes principais:
+git add .: Adiciona todos os arquivos do diret¢rio atual (modificados e novos).
+git add nome_do_arquivo: Adiciona um arquivo espec¡fico.
+git add -u: Adiciona apenas arquivos j  rastreados que foram modificados.
+git add -A ou git add --all: Adiciona todos os arquivos (novos e modificados).
+git add -p: Adiciona partes de arquivos (modo interativo).
+git add -i: Modo interativo para escolher altera‡äes espec¡ficas.
+
+
+
+Deletar reposit¢rio local
+rm -rf .git
+
+
+Isso excluir  o reposit¢rio Git e todo o hist¢rico associado, mas manter  os arquivos do projeto na pasta.
+
+
+
+
+Comandos git Clone
+
+
+Link de Documenta‡Æo
+https://git-scm.com/docs/git-clone/pt_BR
+
+
+git clone + URL do repo
+
+Clonar com Autentica‡Æo via HTTPS (Usu rio e Token Pessoal)
+Se estiver usando HTTPS, vocˆ precisar  de um Personal Access Token (PAT) no lugar da senha.
+
+Criar token de acesso
+git clone https://meu-usuario:meu-token@github.com/meu-usuario/meu-repo.git
+
